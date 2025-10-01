@@ -5,7 +5,7 @@ event_hub_namespace = "<<Namespace_hostname>>"
 event_hub_name="<<Eventhub_Name>>"  
 event_hub_conn_str = "<<Connection_string>>"
 
-
+ 
 kafka_options = {
     'kafka.bootstrap.servers': f"{event_hub_namespace}:9093",
     'subscribe': event_hub_name,

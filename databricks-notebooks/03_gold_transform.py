@@ -170,7 +170,6 @@ fact_final = fact_enriched.select(
 # Persist fact table partitioned by admission_date (helps Synapse / queries)
 fact_final.write.format("delta").mode("overwrite").save(gold_fact)
 
-
 # Quick sanity checks
 print("Patient dim count:", spark.read.format("delta").load(gold_dim_patient).count())
 print("Department dim count:", spark.read.format("delta").load(gold_dim_department).count())

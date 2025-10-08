@@ -65,3 +65,4 @@ for col_name in expected_cols:
     .option("checkpointLocation", silver_path + "_checkpoint")
     .start(silver_path)
 )
+

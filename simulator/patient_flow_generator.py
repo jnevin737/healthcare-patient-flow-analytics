@@ -10,6 +10,7 @@ EVENTHUBS_NAMESPACE = "<<NAMESPACE_HOSTNAME>>"
 EVENT_HUB_NAME="<<EVENT_HUB_NAME>>"  
 CONNECTION_STRING = "<<NAMESPACE_CONNECTION_STRING>>"
 
+
 producer = KafkaProducer(
     bootstrap_servers=[f"{EVENTHUBS_NAMESPACE}:9093"],
     security_protocol="SASL_SSL",
@@ -62,4 +63,4 @@ if __name__ == "__main__":
         print(f"Sent to Event Hub: {event}")
         time.sleep(1)
 
-#example of
+#examples

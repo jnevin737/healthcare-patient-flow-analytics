@@ -33,7 +33,7 @@
 ---
 
 ## 📌 Project Overview
-This project demonstrates a **real-time data engineering pipeline** for healthcare, designed to analyze **patient flow across hospital departments** using Azure cloud services.  
+This project demonstrates a **real-time data engineering pipeline** for Healthworks of Northern Virginia, designed to be a mock draft to analyze **patient flow across hospital departments** as a volunteer logistics event planner.  
 The pipeline ingests streaming data, processes it in **Databricks (PySpark)**, and stores it in **Azure Synapse SQL Pool** for analytics and visualization.
 
 **Part 1 – Data Engineering:** Build the real-time ingestion + transformation pipeline.  

@@ -1,5 +1,5 @@
   
-# Real-Time Patient Flow Analytics on Azure
+# Real-Time Patient Analytics on Azure
 
 ![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoft-azure&style=flat-square)
 ![PySpark](https://img.shields.io/badge/PySpark-Big%20Data-orange?logo=apache-spark&style=flat-square)
@@ -33,7 +33,7 @@
 ---
 
 ## 📌 Project Overview
-This project demonstrates a **real-time data engineering pipeline** for Healthworks of Northern Virginia, a non-profit healthcare org. , designed to be a mock draft to analyze **patient flow across hospital departments** as a volunteer logistics event planner.  
+This project demonstrates a **real-time data engineering pipeline** for Healthworks of Northern Virginia, a non-profit healthcare org. , designed to be a mock draft to analyze **patients flow across hospital departments** as a volunteer logistics analytics planner.  
 The pipeline ingests streaming data, processes it in **Databricks (PySpark)**, and stores it in **Azure Synapse SQL Pool** for analytics and visualization.
 
 **Part 1 – Data Engineering:** Build the real-time ingestion + transformation pipeline.  
